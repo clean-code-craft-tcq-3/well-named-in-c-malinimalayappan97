@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <assert.h>
 #include "ColorCoding.h"
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
