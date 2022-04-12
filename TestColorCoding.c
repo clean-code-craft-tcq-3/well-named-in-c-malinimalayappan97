@@ -9,7 +9,7 @@ void testNumberToPair(int pairNumber,
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     ColorPairToString(&colorPair, colorPairNames);
     printf("Got pair %s\n", colorPairNames);
-    printf("majorcolor-%s,minorcolor-%s,%d-pairNumber",colorPair.majorColor,colorPair.majorColor,pairNumber)
+    //printf("majorcolor-%s,minorcolor-%s,%d-pairNumber",colorPair.majorColor,colorPair.minorColor,pairNumber)
     assert(colorPair.majorColor == expectedMajor);
     assert(colorPair.minorColor == expectedMinor);
 }
@@ -24,6 +24,6 @@ void testPairToNumber(
     colorPair.minorColor = minor;
     int pairNumber = GetPairNumberFromColor(&colorPair);
     printf("Got pair number %d\n", pairNumber);
-    printf("majorcolor-%s,minorcolor-%s,%d-pairNumber",colorPair.majorColor,colorPair.majorColor,pairNumber)
+    //printf("majorcolor-%s,minorcolor-%s,%d-pairNumber",colorPair.majorColor,colorPair.minorColor,pairNumber)
     assert(pairNumber == expectedPairNumber);
 }
