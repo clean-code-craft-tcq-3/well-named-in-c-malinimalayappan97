@@ -8,7 +8,7 @@ void testNumberToPair(int pairNumber,
     ColorPairToString(&colorPair, colorPairNames);
     printf("Got pair %s\n", colorPairNames);
     assert(colorPair.majorColor == expectedMajor);
-   // assert(colorPair.minorColor == expectedMinor);
+    assert(colorPair.minorColor == expectedMinor);
 }
 
 void testPairToNumber(
