@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <assert.h>
 #include "ColorCoding.h"
 
 int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
