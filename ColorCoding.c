@@ -5,9 +5,9 @@
 int main() {
     ColorPair colorPair;
     printf("PRINTING MANUAL\n");
-    for(uint8 i =1 ;i<26;i++)
+    for(int8 i =1 ;i<26;i++)
     {
-        colorPair = GetColorFromPairNumber(i)
+        colorPair = GetColorFromPairNumber(i);
     }
     printf("DO TEST VERIFICATION\n");
     testNumberToPair(4, WHITE, BROWN);
