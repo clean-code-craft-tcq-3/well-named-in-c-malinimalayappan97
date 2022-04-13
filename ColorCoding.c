@@ -5,7 +5,7 @@
 int main() {
     ColorPair colorPair;
     printf("PRINTING MANUAL\n");
-    for(int8 i =1 ;i<26;i++)
+    for(int i =1 ;i<26;i++)
     {
         colorPair = GetColorFromPairNumber(i);
     }
