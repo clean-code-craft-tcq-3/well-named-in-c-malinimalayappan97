@@ -6,6 +6,10 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
+const int MAX_COLORPAIR_NAME_CHARS;
+const char* MajorColorNames[];
+const char* MinorColorNames[];
+
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
